@@ -16,9 +16,11 @@ Um aplicativo móvel desenvolvido em React Native/Expo para organizar e gerencia
 
 ### 📸 Exemplo Visual do Projeto
 
-<img width="540" height="1200" alt="Tela Principal com Links" src="https://github.com/user-attachments/assets/27bb1c74-fc00-4b77-89ce-c6d83e4d6f9f" />
-<img width="540" height="1200" alt="Formulário de Adicionar Link" src="https://github.com/user-attachments/assets/440117bf-a462-41d3-9a1f-b0f3386d432e" />
-<img width="540" height="1200" alt="Links Organizados por Categoria" src="https://github.com/user-attachments/assets/8bb79dc2-4178-4007-96b4-3022c1812fbe" />
+<div style="display: flex; gap: 12px; justify-content: center;">
+  <img src="https://github.com/user-attachments/assets/27bb1c74-fc00-4b77-89ce-c6d83e4d6f9f" alt="Tela Principal com Links" style="width: 30%; height: auto;" />
+  <img src="https://github.com/user-attachments/assets/440117bf-a462-41d3-9a1f-b0f3386d432e" alt="Formulário de Adicionar Link" style="width: 30%; height: auto;" />
+  <img src="https://github.com/user-attachments/assets/8bb79dc2-4178-4007-96b4-3022c1812fbe" alt="Links Organizados por Categoria" style="width: 30%; height: auto;" />
+</div>
 
 ## ✔️ Técnicas e Tecnologias Utilizadas
 
