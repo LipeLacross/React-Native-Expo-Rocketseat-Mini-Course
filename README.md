@@ -1,5 +1,3 @@
-# README.md
-
 ## 🌐 [English Version of README](README_EN.md)
 
 # RocketLinks
@@ -18,7 +16,9 @@ Um aplicativo móvel desenvolvido em React Native/Expo para organizar e gerencia
 
 ### 📸 Exemplo Visual do Projeto
 
-  <div align="center"> <img src="" alt="Tela Principal" width="80%" style="margin: 16px 0; border-radius: 10px;"> <img src="" alt="Adicionar Link" width="80%" style="margin: 16px 0; border-radius: 10px;"> </div> <img width="1080" height="2400" alt="Tela Principal com Links" src="https://github.com/user-attachments/assets/27bb1c74-fc00-4b77-89ce-c6d83e4d6f9f" /> <img width="1080" height="2400" alt="Formulário de Adicionar Link" src="https://github.com/user-attachments/assets/440117bf-a462-41d3-9a1f-b0f3386d432e" /> <img width="1080" height="2400" alt="Links Organizados por Categoria" src="https://github.com/user-attachments/assets/8bb79dc2-4178-4007-96b4-3022c1812fbe" />
+<img width="540" height="1200" alt="Tela Principal com Links" src="https://github.com/user-attachments/assets/27bb1c74-fc00-4b77-89ce-c6d83e4d6f9f" />
+<img width="540" height="1200" alt="Formulário de Adicionar Link" src="https://github.com/user-attachments/assets/440117bf-a462-41d3-9a1f-b0f3386d432e" />
+<img width="540" height="1200" alt="Links Organizados por Categoria" src="https://github.com/user-attachments/assets/8bb79dc2-4178-4007-96b4-3022c1812fbe" />
 
 ## ✔️ Técnicas e Tecnologias Utilizadas
 
