@@ -17,7 +17,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { style } from "./style";
+import { indexStyles } from "./index.styles";
 
 export default function Index() {
   const router = useRouter();
@@ -77,9 +77,9 @@ export default function Index() {
   };
 
   return (
-    <View style={style.container}>
-      <View style={style.header}>
-        <Image style={style.logo} source={require("@/assets/image/logo.png")} />
+    <View style={indexStyles.container}>
+      <View style={indexStyles.header}>
+        <Image style={indexStyles.logo} source={require("@/assets/image/logo.png")} />
         <TouchableOpacity onPress={() => router.push("/add")}>
           <MaterialIcons name="add" size={32} color={colors.green[300]} />
         </TouchableOpacity>
@@ -98,16 +98,16 @@ export default function Index() {
             onDetails={(item) => handleShowDetails(item)}
           />
         )}
-        style={style.containerList}
-        contentContainerStyle={style.contentList}
+        style={indexStyles.containerList}
+        contentContainerStyle={indexStyles.contentList}
         showsVerticalScrollIndicator={true}
       />
 
       <Modal transparent visible={isVisible} animationType="slide">
-        <View style={style.modalContainer}>
-          <View style={style.modalContent}>
-            <View style={style.modalHeader}>
-              <Text style={style.modalTitle}>Curso</Text>
+        <View style={indexStyles.modalContainer}>
+          <View style={indexStyles.modalContent}>
+            <View style={indexStyles.modalHeader}>
+              <Text style={indexStyles.modalTitle}>Curso</Text>
               <TouchableOpacity onPress={() => setIsVisible(false)}>
                 <MaterialIcons
                   name="close"
@@ -118,17 +118,17 @@ export default function Index() {
             </View>
           </View>
 
-          <View style={style.modalUrl}>
-            <Text style={style.ModalTitle} numberOfLines={1}>
+          <View style={indexStyles.modalUrl}>
+            <Text style={indexStyles.ModalTitle} numberOfLines={1}>
               {selectedLink?.name}
             </Text>
-            <Text style={style.ModalUrl} numberOfLines={1}>
+            <Text style={indexStyles.ModalUrl} numberOfLines={1}>
               {selectedLink?.url}
             </Text>
           </View>
 
-          <View style={style.containerOption}>
-            <View style={style.header}>
+          <View style={indexStyles.containerOption}>
+            <View style={indexStyles.header}>
               <Option
                 icon="delete"
                 name="Deletar"
